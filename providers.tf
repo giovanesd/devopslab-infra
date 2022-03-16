@@ -11,7 +11,6 @@ terraform {
 provider "google" {
 
   credentials = file("/home/vagrant/gcpkey.json")
-
   project = "lab-devops-cloud-344300"
   region  = "us-west1"
   zone    = "us-west1-b"
